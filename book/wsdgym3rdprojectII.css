@@ -1,0 +1,107 @@
+body{
+    font-family: 'Poppins', sans-serif;
+} 
+
+container.fluid{
+    background-color: aliceblue;
+    height: 100vh;
+    opacity: .8;
+
+    position: absolute;
+
+}
+
+.course .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.course .box-container .box{
+    width:25rem;
+    border:0.0rem solid rgba(0,0,0,.3);
+    position: relative;
+    margin:1.5rem;  
+}
+
+.course .box-container .box img{
+    height:24rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.course .box-container .box .content{
+    padding:0.2rem;
+}
+
+
+.course .box-container .box .content .title{
+    color:#444;
+    font-size: 1.3rem;
+}
+
+.course .box-container .box .content .title:hover{
+    text-decoration: black;
+}
+
+.course .box-container .box .content p{
+    padding:0.5rem 0;
+    color:black;
+    font-size: 1.4rem;
+}
+
+.course .box-container .box .content .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.0rem;
+    border-top: 0.1rem solid rgba(0,0,0,.3);
+}
+
+.course .box-container .box .content .info h3{
+    height: 0.5rem;
+    font-size: 1.5rem;
+    padding:0.rem;
+    color:rgb(0, 0, 0);
+}
+
+.course .box-container .box .content .info h3 i{
+    color:#f39c12;
+}
+
+
+/* Blog section ends */
+
+/* next page buttons start*/
+
+.center {
+    text-align: center;
+  }
+
+  .pagination {
+    display: inline-block;
+    float: center;
+    text-align: center;
+  }
+  
+  .pagination a {
+    background-color: lightblue;
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 0 4px;
+  }
+  
+  .pagination a.active {
+    background-color: #ff0000;
+    color: white;
+    border: 1px solid #fa2500;
+    border: 1px solid rgb(0, 0, 0);
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #ddd;}
+  

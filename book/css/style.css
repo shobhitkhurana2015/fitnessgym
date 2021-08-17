@@ -1,0 +1,17 @@
+.nav-extended{
+    background-color: black;
+}
+.slider .indicators .indicator-item{
+    background-color: black;
+    display: none;
+}
+body{
+    background-color: #242B2E;
+}
+.welcome{
+    color: white;
+    margin-top: 5vh;
+    margin-left: 35vh;
+  }
+ 
+  

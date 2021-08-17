@@ -1,0 +1,291 @@
+/* all about CSS */
+#home{
+    color:#fff;
+}
+#home:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.quoteSec{
+    height: 9rem;
+    text-align: center;
+}
+.quoteText{
+    color: #FFD700;
+}
+.aboutClients{
+    height: 25rem;
+}
+
+
+
+/* Testimonial CSS */
+
+.testimonialSlider{
+    margin: 20px 0rem;
+    margin-left: 18rem;
+}
+
+.testimonialHeading{
+    text-align: center;
+    color: #26A69A;
+}
+
+
+.testimonialCol{
+    
+    margin: 50px 7rem;
+    max-width: 20%;
+    height: 15rem;
+    border: solid 2px rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+.testimonialCol p{
+    color: #fff;
+    padding: 1rem;
+}
+.testimonialCol p b{
+    color: #C2A43B;
+    padding: 1rem;
+}
+
+.about {
+    padding: 18px;
+    background-color: #242B2E;
+    margin-top: 23px;
+    position: relative;
+    display: flex;
+    /* margin: 25px; */
+    max-width: 85vw;
+    margin: auto;
+  }
+  .about-right-content {
+    align-self: center;
+    padding: 25px;
+  }
+  .about-right-content a {
+    text-decoration: none;
+    color: white;
+}
+#abt{
+    color: #26A69A
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+/* PRESS CSS */
+
+.rowCol{
+     /* border: solid 2px rgb(255, 255, 255); */
+    /* background-color: rgb(0, 0, 0);  */
+     
+     height: 10rem;
+}
+.rowCol p{
+    color: #fff;
+    padding: 20px; 
+}
+.rowSlider{
+    margin: 1rem 0rem;
+    margin-left: 18rem;
+}
+.que{
+    margin-bottom: 15rem;
+}
+.pressQ{
+    color: #26A69A;
+    font-weight: bold;
+}
+.pressQ:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* FAQ CSS */
+
+#quickQ{
+    margin: 1rem 12rem;
+    color: #26A69A;
+    font-weight: bold;
+}
+
+.faqs{
+    /* background-color: #fff; */
+    height: 34.5rem;
+    margin-top: 2rem;
+}
+.popoutQue{
+    margin: 0 10rem;
+}
+.afterClick{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+
+/* All faqs css */
+.faqHeading{
+    color: #fff;
+    padding-top: 2rem;
+    padding-left: 10rem;
+}
+.faqQue{
+    margin-bottom: 15rem;
+}
+.faqCol{
+    /* border: solid 2px rgb(255, 255, 255); */
+   /* background-color: rgb(0, 0, 0);  */
+    
+    height: 10rem;
+}
+
+
+.faqCol p{
+    color: #fff;
+    padding: 20px; 
+}
+.faqSlider{
+    margin: 1rem 0rem;
+    margin-left: 8rem;
+    margin-right: 5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* OverviewCSS */
+
+.aboutMe{
+    margin-top: 2rem;
+    height: 20rem;
+}
+
+.blogsContainer{
+    height: 35rem;
+    /* background-color: #fff; */
+}
+#blogsByMe{
+    margin-left: 10rem;
+    color: #26A69A;
+}
+
+
+.design-content{
+    margin: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+  }
+  .design-item{
+    cursor: pointer;
+    margin: 1.5rem 0;
+    
+  }
+  .design-img{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+  }
+  .design-img::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+  }
+  .design-img img{
+    transition:  all 0.5s ease;
+  }
+  .design-item:hover img{
+    transform: scale(1.2);
+  }
+  .design-img span:first-of-type{
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    left: 10px;
+    background: var(--exDark);
+    color: #fff;
+    padding: 0.25rem 1rem;
+  }
+  .design-img span:last-of-type{
+    position: absolute;
+    z-index: 1;
+    bottom: 10px;
+    right: 10px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.1rem;
+  }
+  .design-title{
+    padding: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+  }
+  .design-title a{
+    color: var(--dark);
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: var(--Playfair);
+  }
+  .container{
+      max-width: 1320px;
+      margin: 0 auto;
+      padding: 0 1.2rem;
+      
+  }
+  
+/* CareerSection CSS */
+.careerHeading{
+    color: #26A69A;
+    padding-top: 2rem;
+    padding-left: 1.5rem;
+}
+.careerSlider{
+    height: 32rem;
+}
+.careerCol{
+    width: 0;
+    height: 10rem;
+}
+.careerCol p{
+    color: #fff;
+    padding: 10px; 
+    width: 40rem;
+}
+.careerSlider{
+    margin: 1rem 0rem;
+    margin-left: 8rem;
+    margin-right: 5rem;
+}
